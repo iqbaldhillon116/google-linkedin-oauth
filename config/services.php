@@ -31,14 +31,14 @@ return [
     ],
 
     'google' => [
-        'client_id' => '520407134686-e8qro6jcbo7iv7fh8k4n0togqpqm0drb.apps.googleusercontent.com',
-        'client_secret' => 'tWwJBhOmPhJlA46CLkCz0fpN',
+        'client_id' => '',
+        'client_secret' => '',
         'redirect' => env('APP_URL').':8000/auth/google/callback',
     ],
 
     	'linkedin' => [
-        'client_id' => '86ci2jh3qedc6d',
-        'client_secret' => '66mAws3WGrmbiy5H',
+        'client_id' => '',
+        'client_secret' => '',
         'redirect' => 'http://localhost:8000/linkedin/callback',
         ],
 
